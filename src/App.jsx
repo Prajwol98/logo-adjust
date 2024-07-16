@@ -15,10 +15,10 @@ function App() {
         <SideNav selectedIndex={(value) => setSelectedIndex(value)}></SideNav>
       </div>
       <div className="ml-64 grid grid-cols-1 md:grid-cols-6">
-        <div className="md:col-span-3">
+        <div className="md:col-span-2">
           {selectedIndex === 0 ? <IconController /> : <BackgroundController />}
         </div>
-        <div className="md:col-span-3">{/* <h1>hello</h1> */}</div>
+        <div className="md:col-span-4">{/* <h1>hello</h1> */}</div>
         {/* <MainBody></MainBody> */}
       </div>
     </>
