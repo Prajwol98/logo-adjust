@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "./ui/button";
 import { Download } from "lucide-react";
 
@@ -10,7 +9,7 @@ const Header = () => {
         <span className="text-[20px] font-bold ">Logo Adjust </span>
       </div>
       <Button className="bg-destructive">
-        <Download className="mr-2"></Download>Download
+        <Download className="mr-2">Download</Download>
       </Button>
     </div>
   );

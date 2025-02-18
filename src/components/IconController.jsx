@@ -46,7 +46,7 @@ const IconController = () => {
         ></Slider>
       </div>
       <div className="mt-[20px] ">
-        <GradientColorPicker className=""></GradientColorPicker>
+        <GradientColorPicker className=""> </GradientColorPicker>
       </div>
     </div>
   );
